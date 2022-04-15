@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success bg-gradient">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient p-3 fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -23,13 +23,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                    <a class="nav-link active" aria-current="page" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                    <a class="nav-link active" aria-current="page" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Subcribe</a>
+                    <a class="nav-link active" aria-current="page" href="#subcribe">Subcribe</a>
                   </li>
                 </ul>
               </div>
@@ -39,7 +39,7 @@
 
           <!-- image slider -->
 
-          <section class="container bg-secondary bg-gradient ps-5 pe-5 pt-2 pb-2 mt-5 rounded">
+          <section class="container bg-dark bg-gradient ps-5 pe-5 pt-2 pb-2 mt-5 rounded">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -50,7 +50,7 @@
                   <div class="carousel-item active">
                       <div class="row d-flex align-items-center">
                           <div class="col-lg-7">
-                                 <h1>Cool Dube Headphone</h1>
+                                 <h1 class="text-white">Cool Dube Headphone</h1>
                                  <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, assumenda.</p>
                                  <h1 class="text-danger">$420</h1>
                                  <button type="button" class="btn btn-danger">Buy Now</button>
@@ -65,13 +65,13 @@
                   <div class="carousel-item">
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-7">
-                               <h1>MEGA LCD TV For Sports</h1>
+                               <h1 class="text-white">MEGA LCD TV For Sports</h1>
                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, assumenda.</p>
                                <h1 class="text-danger">$1200</h1>
                                <button type="button" class="btn btn-danger">Buy Now</button>
                         </div>
                         <div class="col-lg-5">
-                          <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                          <img src="images/banner-images/tvrm.png" class="d-block w-100" alt="...">
 
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                   <div class="carousel-item">
                     <div class="row d-flex align-items-center">
                         <div class="col-lg-7">
-                               <h1>X-box for your living room</h1>
+                               <h1 class="text-white">X-box for your living room</h1>
                                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, assumenda.</p>
                                <h1 class="text-danger">$600</h1>
                                <button type="button" class="btn btn-danger">Buy Now</button>
@@ -103,6 +103,150 @@
           </section>
 
     </header>
+
+    <main>
+
+      <!----------------------------- Categories section ------------------------->
+
+
+      <section class="container mt-5 mb-2" id="shoes">
+       
+        <h1 class="text-warning">Categories</h1>
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="p-3 bg-dark bg-gradient d-flex align-items-center justify-content-around  rounded ">
+                <h3 class="text-white fs-1">Bag</h3>
+               <img src="images/categories/bag.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="p-3 bg-dark bg-gradient d-flex align-items-center justify-content-around  rounded ">
+                <h3 class="text-white fs-1">Watch</h3>
+                <img src="images/categories/watch.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="p-3 bg-dark bg-gradien d-flex align-items-center justify-content-around  rounded">
+                <h3 class="text-white fs-1">Shoes</h3>
+                <img src="images/categories/shoes.png" alt="">
+              </div>
+            </div>
+          
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- shoes section -->
+      <section class="container mt-5 mb-5" >
+        <h1 class="text-warning">Shoes</h1>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 "id="backpack">
+          <div class="col  ">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Reebok Dart Men’s Shoes</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$1259</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Reebok Pump</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$1259</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Reebok All Terrain</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$1259</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!------------------- Backpack sections ----------------->
+
+      <section class="container mt-5 mb-5" >
+        <h1 class="text-warning">Backpack</h1>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col  ">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Ison Backpack</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$899</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Biaowang Backpack</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$999</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 bg-dark bg-gradien">
+              <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h3 class="card-title text-white">Dxyizu WS54 Smart</h3>
+                <p class="card-text text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                <h3 class="text-white">$659</h3>
+                <button class="btn btn-danger">Buy Now</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <footer style="height: 300px;" class="d-flex flex-column justify-content-center align-items-center bg-dark bg-gradient " id="subcribe">
+
+      <div>
+        <h1 class="text-white">LET'S STAY IN TOUCH </h1>
+        <p class="text-white">Get updates on sales specials and more</p>
+      </div>
+      <div class="col-auto mb-2">
+        <label for="inputPassword2" class="visually-hidden">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Email">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+      </div>
+
+    </footer>
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
